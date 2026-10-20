@@ -19,7 +19,7 @@ make -j$(nproc) bfs-push-dist sssp-push-dist pagerank-push-dist triangle-countin
 
 ### 2. Run experiments:
 ```bash
-cd src/experiments/experiment_2
+cd src/experiment_2
 
 ./bfs.sh
 ./sssp.sh
